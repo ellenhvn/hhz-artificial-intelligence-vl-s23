@@ -1,8 +1,9 @@
-# Artificial Intelligence - VL - W22 - (Roßmann)
+# Artificial Intelligence - VL - S23 - (Roßmann)
 
-This repository contains accompanying hands-on material for a master course taught at the [Herman Hollerith Zentrum](https://www.hhz.de/en/master-courses/) in the 2022 winter semester.
+This repository contains accompanying hands-on material for a master course taught at the [Herman Hollerith Zentrum](https://www.hhz.de/en/master-courses/) in the 2023 Summer Semester.
 
 ### Lecturers DBE
 - Prof. Dr. Alexander Rossmann
 - Lena Eckstein
 - Ellen Hoeven
+- Daniel Kaulen
