@@ -6,4 +6,8 @@ This repository contains accompanying hands-on material for a master course taug
 - Prof. Dr. Alexander Rossmann
 - Lena Eckstein
 - Ellen Hoeven
+
+### Lecturers DBM
+- Prof. Dr. Alexander Rossmann
+- Lena Eckstein
 - Daniel Kaulen
