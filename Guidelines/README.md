@@ -6,8 +6,6 @@ This folder contains guidelines that walk you through common tasks needed to com
 - [How can I work with Jupyter notebooks locally?](./run-jupyter-notebooks-locally)
 - [How can I install Tensorflow locally?](./install-tensorflow)
 - [How can I access Watson Studio?](./access-watson-studio)
-- [How can I create a new project?](./create-project)
-- [How can I create a new deployment space and retrieve the space ID?](./create-deployment-space)
 - [How can I create a new notebook?](./create-notebook)
 - [How can I upload data files to my project?](./upload-data-files)
 - [How can I add a project token to my notebook?](./insert-project-token)
