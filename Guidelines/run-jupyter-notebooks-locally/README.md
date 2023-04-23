@@ -2,16 +2,16 @@
 
 Note: There are multiple ways to work with [Jupyter](https://jupyter.org/) notebooks and manage Python environments on your local machine. This guideline describes the _recommended_ setup for the accompanying exercises of the Artificial Intelligence course.
 
-1. Download, install and launch the latest version of [Anaconda Individual Edition](https://www.anaconda.com/products/individual)
+1. Download, install and launch the latest version of [Anaconda Individual Edition](https://www.anaconda.com/download)
 ![](./screenshots/1.png)
 2. Create a new conda environment and install required packages (use the latest available versions).
 ![](./screenshots/2a.png)
-![](./screenshots/2b39.png)
+![](./screenshots/2b.png)
   - The required packages will vary between exercises. Install at least `notebook`, `pandas`, `scikit-learn` and `matplotlib`, `seaborn`, `statsmodels`.
 ![](./screenshots/2c.png)
   - Click apply and wait for the installation to finish.
 ![](./screenshots/2d.png)
-  - For some exercises, we may provide a predefined environment file (e.g. [env-hhz-py39.yml](./env-hhz-py39.yml)) that simplifies the installation of required package dependencies and allows to setup reproducible environments across different work stations.
+  - For some exercises, we may provide a predefined environment file (e.g. [env-hhz-py310.yml](./env-hhz-py310.yml)) that simplifies the installation of required package dependencies and allows to setup reproducible environments across different work stations.
 ![](./screenshots/2f.png)
 3. Launch notebook and run Python code
 ![](./screenshots/3.png)
