@@ -9,3 +9,4 @@ Log in with your existing IBMid on https://dataplatform.cloud.ibm.com/ to access
 
 ## General troubleshooting advice
 - clear cookies and/or use incognito browser mode
+- try a different browser
