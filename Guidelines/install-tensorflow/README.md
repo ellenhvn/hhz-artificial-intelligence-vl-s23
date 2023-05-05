@@ -5,6 +5,10 @@
 
 ### Steps
 
+We recommend creating a new Conda environment for this exercise.
+Create a new Conda environment with matplotlib, scikit-learn and notebook.
+
+In addition, follow these steps to install tensorflow and tensorflow-datasets in your environment:
 
 At the time of writing, the most recent version of `tensorflow-datasets` that is compatible with Python 3.9 has not yet been published to the default Conda channel. We therefore install this package via [pip](https://pypi.org/project/pip/) directly.
 
@@ -34,4 +38,5 @@ print(tfds.__version__)
 ![](./screenshots/5.png)
 
 4. Restart your Kernel via (Kernel > Restart) and check if the installation succeeded 
+
 
