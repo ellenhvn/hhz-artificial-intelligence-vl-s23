@@ -2,7 +2,7 @@
 
 
 ## Login
-Log in with your existing IBMid on https://dataplatform.cloud.ibm.com/ to access Watson Studio.
+Log in with your existing IBMid on https://dataplatform.cloud.ibm.com/ to access Watson Studio. Choose Dallas
 ![](./screenshots/0a.png)
 ![](./screenshots/0b.png)
 
