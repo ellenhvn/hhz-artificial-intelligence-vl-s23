@@ -3,15 +3,18 @@
 # Set-up
 `cd Local Deployment`
 
+In a new virtual environment run:
 `pip install -r ./requirements.txt` 
 
 # 1 Run the model training
-- Run in your activated conda environment
+- Run in your activated environment with requirements installed
 ```
-python3 train.py
+python train.py
 ```
-- A model is created using the training data in model/model.pkl
-- A corresponding file with the columns that were used for the model is also saved in model/model_columns.pkl
+(depending on your Python path you might need to use python3 train.py)
+
+- A model is created using the training data in model/model.pkl. This creates the model file we will serve in our container. 
+- A corresponding file with the columns that were used for the model is also saved in model/model_columns.pkl.
 
 # 2 Start the Flask backend
 ```
@@ -19,7 +22,7 @@ python3 app.py
 ```
 
 - Flask is now running locally and uses the trained model from step 1
-- Currently there is no front-end, so you can submit predictions in 2 ways locally
+- Currently there is no front-end, so you can submit predictions in 2 ways locally (we currently need to specify each column due to the way the column logic is implemented, feel free to change this if you wish)
 
 ```
 http://0.0.0.0:8080/predict?Age=30&Sex_female=0&Sex_male=1&Sex_nan=0&Embarked_C=0&Embarked_S=0&Embarked_Q=1&Embarked_nan=0
@@ -35,6 +38,8 @@ curl -i "0.0.0.0:8080/predict?Age=30&Sex_female=0&Sex_male=1&Sex_nan=0&Embarked_
 ```
 
 # 3 Start the Docker container with the app
+
+Next, we build the Docker container with our code, model and requirements.
 
 - First, make sure Docker is running on your local machine (get Docker Desktop here: https://docs.docker.com/get-docker/ and then install and start the application)
 
